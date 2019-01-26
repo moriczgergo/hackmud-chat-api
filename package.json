@@ -1,0 +1,26 @@
+{
+  "name": "hackmud-chat-api",
+  "version": "1.0.0",
+  "description": "An easy-to-use hackmud Chat API module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moriczgergo/hackmud-chat-api.git"
+  },
+  "keywords": [
+    "hackmud"
+  ],
+  "author": "skiilaa",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/moriczgergo/hackmud-chat-api/issues"
+  },
+  "homepage": "https://github.com/moriczgergo/hackmud-chat-api#readme",
+  "dependencies": {
+    "deasync": "^0.1.14",
+    "request": "^2.88.0"
+  }
+}
