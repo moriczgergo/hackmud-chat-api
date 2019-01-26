@@ -3,7 +3,7 @@ An easy-to-use hackmud Chat API module.
 
 ## Installation
 
-Latest NPM release (**recommended**): `npm install hackmud-chat-api`
+Latest NPM release (**recommended**): `npm @skiilaa/install hackmud-chat-api`
 Latest GitHub version: `npm install moriczgergo/hackmud-chat-api`
 
 ## Usage
