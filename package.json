@@ -1,6 +1,6 @@
 {
   "name": "@skiilaa/hackmud-chat-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy-to-use hackmud Chat API module.",
   "main": "index.js",
   "scripts": {
