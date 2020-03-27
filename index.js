@@ -41,7 +41,7 @@ class Client {
         this.channel = this.users.reduce((a,x) => {a[x] = Object.keys(acctCall[x]); return a}, {});
 
         this.last_poll = Date.now();
-        this.interval_id = setInterval(this._poll, 250);
+        this.interval_id = setInterval(this._poll, 1500);
         this.msgs_after = Date.now()/1000;
         this.poll_handlers = [];
     }
