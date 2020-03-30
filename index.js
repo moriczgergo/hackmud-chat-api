@@ -57,7 +57,7 @@ class Client {
         var chats;
 
         request.post("https://www.hackmud.com/mobile/chats.json", {json: {chat_token: this.token, after: this.msgs_after+0.1, usernames: this.users}}, function (err, response, body) {
-            if (err) throw err;
+            if (err) return; // Handle netowk errors faithfully.
             if (!body.ok) throw body.msg;
 
             done = true;
